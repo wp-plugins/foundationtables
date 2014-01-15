@@ -6,8 +6,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Succeeding the popularity of Zurb's Foundation framework, FoundationTables is a plugin written to harness the responsiveness the framework provides, and extend the WordPress page editor with a new toolset to easily insert, edit, and delete collections of tabular data.
-If you're using a Foundation Theme, and are looking for a method to rapidly and responsively insert tabled data, this is the plugin for your site.
+FoundationTables extends the WordPress page editor with a new toolset to easily insert, edit, style and delete Foundation-ready tables.
 
 == Description ==
 
@@ -17,7 +16,7 @@ If you're using a Foundation Theme, and are looking for a method to rapidly and 
 **One, Two, Three, Four, Five, Six Columns**
 
 WordPress makes editing page content a snap. Even the rich-text editor's table tools are pretty good.
-But if you're using a [FOUNDATION] (http://foundation.zurb.com/ "The most advanced responsive front-end framework in the world") theme, wouldn't it be killer to take advantage of the responsive styles pioneered by [Zurb] (http://foundation.zurb.com/ "Foundation is by Zurb")?
+But if you're using a [FOUNDATION](http://foundation.zurb.com/ "The most advanced responsive front-end framework in the world") theme, wouldn't it be killer to take advantage of the responsive styles pioneered by [Zurb](http://foundation.zurb.com/ "Foundation is by Zurb")?
 This plugin, FoundationTables integrates these row/column/pad classes to greatly cut down on your need for rewriting table styles and responsive media queries.
 
 * Add as many tables to your page as needed
@@ -31,8 +30,8 @@ This plugin, FoundationTables integrates these row/column/pad classes to greatly
 
 This plugin was tested using the following Foundation-friendly themes:
 
-* [Reactor] (http://awtheme.com/ "Reactor Theme by AWTheme") by AWTheme
-* [required+] (http://themes.required.ch/ "required+ Theme by required+ GmbH") by required+ GmbH
+* [Reactor](http://awtheme.com/ "Reactor Theme by AWTheme") by AWTheme
+* [required+](http://themes.required.ch/ "required+ Theme by required+ GmbH") by required+ GmbH
 
 More themes will be tested and documented shortly.
 
