@@ -1,0 +1,12 @@
+body#tinymce.wp-editor div.foundtabinsert { 
+	color: #B74327;
+	background-color: #B74327;
+	height: 24px;
+	border: 1px solid #B74327; 
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,.1);
+	width: 90%;
+	margin: 4px 0;
+	padding: 0;
+}

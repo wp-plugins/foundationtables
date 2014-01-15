@@ -1,0 +1,57 @@
+/********************************************************************************* Style::header-grey::(Greys with Header)::******/
+div.foundtab_header-grey {
+	border: 2px solid #FFF;
+	box-shadow: 0 0 2px #DDD;
+	-moz-box-shadow: 0 0 2px #DDD;
+	-webkit-box-shadow: 0 0 2px #DDD;
+	line-height: 1.2em;
+	font: normal normal .75em/2em Arial, Helvetica, sans-serif;
+}
+div.foundtab_header-grey div.row{ 
+	transition: background-color .25s;
+	-moz-transition: background-color .25s;
+	-webkit-transition: background-color .25s;
+}
+div.foundtab_header-grey div.row:nth-child(2n+0){ background-color: #FFF; }
+div.foundtab_header-grey div.row:nth-child(2n+1){ background-color: #FAFAFA; }
+div.foundtab_header-grey div.row:first-child{ background-color: #E7E7E7; font-weight: bold; line-height: 1.7em; }
+div.foundtab_header-grey div.row:first-child:hover{ background-color: #E7E7E7;}
+div.foundtab_header-grey div.row:hover { background-color: #E5F6FF;}
+
+/********************************************************************************* Style::firstcolumn-grey::(Grey, First Column Highlighted)::******/
+div.foundtab_firstcolumn-grey {
+	border: 2px solid #FFF;
+	box-shadow: 0 0 2px #DDD;
+	-moz-box-shadow: 0 0 2px #DDD;
+	-webkit-box-shadow: 0 0 2px #DDD;
+	line-height: 1.2em;
+	font: normal normal .75em/2em Arial, Helvetica, sans-serif;
+}
+div.foundtab_firstcolumn-grey div.row{ 
+	transition: background-color .25s;
+	-moz-transition: background-color .25s;
+	-webkit-transition: background-color .25s;
+}
+div.foundtab_firstcolumn-grey div.row div:nth-child(12n+1){ background-color: #E7E7E7; }
+div.foundtab_firstcolumn-grey div.row div:nth-child(12n+1):hover{ background-color: #E5F6FF; }
+div.foundtab_firstcolumn-grey div.row:nth-child(2n+0){ background-color: #FFF; border-top: 1px solid #FFF;}
+div.foundtab_firstcolumn-grey div.row:nth-child(2n+1){ background-color: #FAFAFA; border-top: 1px solid #FAFAFA;}
+div.foundtab_firstcolumn-grey div.row:first-child{ background-color: #E7E7E7; font-weight: bold; line-height: 1.7em; border: 0; }
+div.foundtab_firstcolumn-grey div.row:first-child:hover{ background-color: #E7E7E7 !important;}
+div.foundtab_firstcolumn-grey div.row:hover{ background-color: #E5F6FF !important;}
+
+/********************************************************************************* Style::simple::(Simple Grey)::******/
+div.foundtab_simple{
+	border: 2px solid #FFF;
+	background: #FAFAFA;
+	box-shadow: 0 0 2px #DDD;
+	-moz-box-shadow: 0 0 2px #DDD;
+	-webkit-box-shadow: 0 0 2px #DDD;
+	line-height: 1.2em;
+	font: normal normal .75em/2em Arial, Helvetica, sans-serif;
+}
+div.foundtab_simple div.row{ 
+	transition: background-color .25s;
+	-moz-transition: background-color .25s;
+	-webkit-transition: background-color .25s;
+}
