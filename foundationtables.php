@@ -3,7 +3,7 @@
 Plugin Name: FoundationTables
 Plugin URI: http://wordpress.org/plugins/foundationtables/
 Description: Easily insert and manage tabled content for the pages of your foundation theme.
-Version: 0.2
+Version: 0.21
 Author: ERA404 Creative Group, Inc.
 Author URI: http://www.era404.com
 License: GPLv2 or later.
@@ -51,6 +51,7 @@ function foundtab_build(){
 	//echo "<textarea>"; print_r($foundtab); echo "</textarea>";
 
 	echo "<style>
+			<!--
 			table.foundtab {
 				width:720px;
 				border-spacing:0;
@@ -67,7 +68,7 @@ function foundtab_build(){
 				background: #BD4825;
 				color: #FFF;
 			}
-			#foundationtables input, select {
+			#foundationtables input, #foundationtables select {
 				background: #BD4825;
 				border: 0;
 				text-align: center;
@@ -174,7 +175,7 @@ function foundtab_build(){
 			input.donate {
 				margin: -1px 8px 0 -4px;
 			}
-			
+			-->
 		  </style>";
 	
 	echo "<p><strong>Instructions:</strong> 
@@ -224,8 +225,8 @@ PAYPAL;
 
 add_action('save_post', 'foundtab_save');
 function foundtab_save(){
-	global $post;							//myprint_r($_POST['foundtab']); 
-	$foundtab = foundtab_query($post->ID);	//myprint_r($foundtab);
+	global $post; if(!isset($_POST['foundtab'])) return; 						//myprint_r($_POST['foundtab']);
+	$foundtab = foundtab_query($post->ID);										//myprint_r($foundtab);
 	foreach($_POST['foundtab'] as $ftid=>$ftab) { $empty = true;
 		foreach($ftab as $ftrow=>$ftcols){
 			if(strlen(trim(implode("",array_values($ftcols))))>0) $empty = false;

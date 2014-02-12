@@ -61,5 +61,8 @@ If you wish. Sure.
 
 == Changelog ==
 
+= 0.21 =
+* Updated hooks to work for 3.8.1, adjusted styles for better content entry.
+
 = 0.1 =
 * Plugin-out only in beta, currently. Standby for official release.
