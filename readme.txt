@@ -60,6 +60,8 @@ Yes.
 If you wish. Sure.
 
 == Changelog ==
+= 0.22 =
+* Separated admin/nopriv scripts for faster load.
 
 = 0.21 =
 * Updated hooks to work for 3.8.1, adjusted styles for better content entry.

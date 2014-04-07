@@ -3,11 +3,11 @@
 Plugin Name: FoundationTables
 Plugin URI: http://wordpress.org/plugins/foundationtables/
 Description: Easily insert and manage tabled content for the pages of your foundation theme.
-Version: 0.21
+Version: 0.22
 Author: ERA404 Creative Group, Inc.
 Author URI: http://www.era404.com
 License: GPLv2 or later.
-Copyright 2014  era404 Creative Group, Inc.  (email : in4m@era404.com)
+Copyright 2014  era404 Creative Group, Inc.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -23,12 +23,15 @@ GNU General Public License for more details.
 define('FOUNDTAB_URL', admin_url() . 'options-general.php?page=foundationtables');
 
 // Setup plugin scripts and styles
-
-wp_enqueue_script( 'ajax-script', plugins_url('/foundationtables.js', __FILE__), array('jquery'), 1.0 ); // jQuery will be included automatically
+add_action( 'admin_enqueue_scripts', 'foundationtables_scripts' );
 function foundationtables_scripts() {
+	wp_enqueue_script( 'ajax-script', plugins_url('/foundationtables.js', __FILE__), array('jquery'), 1.0 ); // jQuery will be included automatically
+}
+add_action( 'wp_enqueue_scripts', 'foundationtables_styles' );
+function foundationtables_styles() {
 	wp_enqueue_style( 'style-name', plugins_url('/foundationtables.css', __FILE__) );
 }
-add_action( 'wp_enqueue_scripts', 'foundationtables_scripts' );
+
 
 //sizes of the columns (12 total)
 $colw = array(	1=>"[1] x-small",
