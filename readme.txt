@@ -60,6 +60,9 @@ Yes.
 If you wish. Sure.
 
 == Changelog ==
+= 0.23 =
+* Added new plugin icons.
+
 = 0.22 =
 * Separated admin/nopriv scripts for faster load.
 
