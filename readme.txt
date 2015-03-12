@@ -1,7 +1,7 @@
 === FoundationTables ===
 Contributors: ERA404
 Requires at least: 3.2.1
-Tested up to: 3.8
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,12 +60,6 @@ Yes.
 If you wish. Sure.
 
 == Changelog ==
-= 0.24 =
-* Suppressed a friendly notice when a foundation table was empty for a page.
-
-= 0.23 =
-* Added new plugin icons.
-
 = 0.22 =
 * Separated admin/nopriv scripts for faster load.
 
