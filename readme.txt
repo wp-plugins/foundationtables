@@ -60,6 +60,9 @@ Yes.
 If you wish. Sure.
 
 == Changelog ==
+= 0.24 =
+* Suppressed a friendly notice when a foundation table was empty for a page.
+
 = 0.23 =
 * Added new plugin icons.
 

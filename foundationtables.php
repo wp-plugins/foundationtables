@@ -3,7 +3,7 @@
 Plugin Name: FoundationTables
 Plugin URI: http://wordpress.org/plugins/foundationtables/
 Description: Easily insert and manage tabled content for the pages of your foundation theme.
-Version: 0.23
+Version: 0.24
 Author: ERA404 Creative Group, Inc.
 Author URI: http://www.era404.com
 License: GPLv2 or later.
@@ -328,7 +328,7 @@ if(!function_exists("myprint_r")){	function myprint_r($in) {	echo "<pre>"; print
 
 function foundtab_query($id){
 	$custom = get_post_custom($id);
-	$foundtab = $custom['foundtab'];
+	$foundtab = (isset($custom['foundtab'])?$custom['foundtab']:array());
 	if(empty($foundtab)){ $foundtab = array(0=>array(false)); } 						// this is a clean table to start
 	else { foreach($foundtab as $ftid=>$ftab) $foundtab[$ftid]=unserialize($ftab); }	//prepare stored tables
 	return($foundtab[0]);
