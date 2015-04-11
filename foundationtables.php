@@ -3,7 +3,7 @@
 Plugin Name: FoundationTables
 Plugin URI: http://wordpress.org/plugins/foundationtables/
 Description: Easily insert and manage tabled content for the pages of your foundation theme.
-Version: 0.22
+Version: 0.23
 Author: ERA404
 Author URI: http://www.era404.com
 License: GPLv2 or later.
